@@ -1,0 +1,18 @@
+# set user name
+git config --global user.name "Obatata"
+# set mail adresse 
+git config --global user.email "batata.oussama@gmail.com"
+# display config informations 
+git config --global --list
+OR
+cat ~/.gitconfig
+
+## intialize git with first folder "first"
+git init first
+
+# display files of "first"
+ls -larth
+or 
+ls -a
+
+
