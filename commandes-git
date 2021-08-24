@@ -1,0 +1,17 @@
+# l'état du projet et le tracking des fichiers (verification des modif sur les fichiers du projet)
+git status
+
+# Pour tracer le fihcier, il faut le passe en staging :
+git add 
+
+# commit les changements pour les passer en git local
+git commit -m "add README.md file"
+  -m : message 
+  
+# pour afficher le code Hash SHA1
+git show HEAD
+
+# ADD and commit after modying file "README.md" for instance
+git commit -a -m "Add e-mail in README.md"
+
+ 
