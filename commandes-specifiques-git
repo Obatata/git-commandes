@@ -1,0 +1,56 @@
+# Annuler modification au niveau du staging git pour le fihicer README.md pour instance
+git restore --staged README.md
+OR
+git reset HEAD README.md AND git checkout -- README.md
+
+
+
+
+# Afficher le log d'un projet git 
+git log
+# Quiter
+q
+
+
+
+# Log option : 
+## chque commit en une ligne identiant+message 
+git log --oneline
+## les commits d'un développeur de la team 'Obatata' pour instance
+git log --author="obatata"
+## filtrer sur les commits par exemple sur les commentaires par exemple "hello-word.py"
+git log --grep="hello-word.py"
+
+
+
+# Supprimer des fichiers du git par exemple mesidentifiants.log et test.py
+--Method 1 : 
+git rm mesidentifiants.log test.py
+git commit -m "Remove mesidentifiants.log et test.py"
+
+--Method 2 :
+rm mesidentifiants.log test.py
+git add add mesidentifiants.log test.py
+git commit -m "Remove mesidentifiants.log et test.py"
+
+
+# Déplacer un fihcier hello-word.py dans le dossier python 
+git mv hello-word.py python
+git commit -m "Move hello-word.py to python directory"
+OR 
+mv hello-word.py python
+git add . 
+git commit -m "Move hello-word.py to python directory"
+
+# ignorer des fichiers sur git 
+create .gitignore 
+copy name files in gitignore
+git add .gitignore
+git commit -m "Add gitignore"
+
+
+# push le code dans un gitlab distance
+git push -u origin main
+orgin : gitlab distant
+main : dépôt gitlab local
+
