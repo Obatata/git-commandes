@@ -1,0 +1,11 @@
+# Display branch of git project
+ git branch --list
+
+# Création d'une nouvelle branch pour instance "dev"
+ git branch dev
+
+# Déplacer dans la branche pour instance "dev"
+git checkout dev 
+
+# Pusher la branche "dev" dans le git distant
+git push origin dev
