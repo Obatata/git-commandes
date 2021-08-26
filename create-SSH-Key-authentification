@@ -1,0 +1,7 @@
+# create SSH key en local on your machine (git bash for windows) 
+ssh-keygen
+
+# Login to your gitlab compte
+Gotot account ＞ Settings ＞ SSH Keys
+ 
+ # Copy content ssh-keygen on the ssh gitlab compte
