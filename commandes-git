@@ -15,3 +15,8 @@ git show HEAD
 git commit -a -m "Add e-mail in README.md"
 
  
+# Remote add origin exampe "https://github.com/Obatata/AzureML_SDK_workspaceSetting.git"
+git remote add origin https://github.com/Obatata/AzureML_SDK_workspaceSetting.git
+
+# Push from "main" to "origin"
+git push -u origin main
