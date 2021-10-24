@@ -18,5 +18,9 @@ git commit -a -m "Add e-mail in README.md"
 # Remote add origin exampe "https://github.com/Obatata/AzureML_SDK_workspaceSetting.git"
 git remote add origin https://github.com/Obatata/AzureML_SDK_workspaceSetting.git
 
+# Change the URI (URL) for a remote Git repository?
+# For instance we want to change our remour to "git@github.com:Obatata/AzureMl_Run_pipeline.git" (ssh)
+git remote set-url origin git@github.com:Obatata/AzureMl_Run_pipeline.git
+
 # Push from "main" to "origin"
 git push -u origin main
